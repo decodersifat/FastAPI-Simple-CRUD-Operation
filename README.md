@@ -1,4 +1,4 @@
-# FastAPI CRUD API Documentation using SQLAlchemy
+# FastAPI CRUD API Documentation
 
 This documentation provides an overview of the FastAPI CRUD API, which uses SQLAlchemy for database interaction with PostgreSQL.
 
@@ -9,22 +9,14 @@ FastAPI-Simple-CRUD-Operation/
 │── main.py         # Main FastAPI application
 │── database.py     # Database configuration and session management
 │── models.py       # SQLAlchemy models
-│── requirements.txt # Dependencies
+
 ```
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/decodersifat/FastAPI-Simple-CRUD-Operation.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd FastAPI-Simple-CRUD-Operation
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+   git clone -b FastAPI-CRUD-Operation---SQLAlchemy https://github.com/decodersifat/FastAPI-Simple-CRUD-Operation.git
    ```
 
 ## Database Configuration
@@ -188,7 +180,7 @@ PUT /update/{id}
 Run the FastAPI server using:
 
 ```bash
-uvicorn main:app --reload
+fastapi dev main.py
 ```
 
 The API will be available at:
@@ -207,6 +199,4 @@ You can test the API using:
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
-
 
