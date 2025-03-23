@@ -1,5 +1,6 @@
 # FastAPI CRUD API Documentation
-
+1. **FastAPI CRUD with SQLAlchemy** ([View Branch](https://github.com/decodersifat/FastAPI-Simple-CRUD-Operation/tree/FastAPI-CRUD-Operation---SQLAlchemy))
+2. **FastAPI CRUD with psycopg2** ([View Branch](https://github.com/decodersifat/FastAPI-Simple-CRUD-Operation/tree/FastAPI-CRUD-Operation---psycopg2))
 This documentation provides an overview of the FastAPI CRUD API, which uses SQLAlchemy for database interaction with PostgreSQL.
 
 ## Project Structure
